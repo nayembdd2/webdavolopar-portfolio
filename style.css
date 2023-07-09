@@ -1,0 +1,41 @@
+/* cmmon shared style*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*nav related style*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.web title{
+    font-size: 45px;
+    font-weight: 800;
+    color: black;
+
+}
+.mary-name{
+    color:#FD6E0A;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(34, 30, 30);
+}
+.button-title{
+    border-radius: 2px;
+    background-color: #FD6E0A;
+    padding: 14px 30px;
+    border: 0;
+    color: aliceblue;
+    font-size: 20px;
+}
